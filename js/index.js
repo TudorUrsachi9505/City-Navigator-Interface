@@ -13,4 +13,5 @@ $(document).ready(function(){
   $('.collapsible').collapsible(); });
 // Sidebar navigation page
 $(document).ready(function(){
-    $('.sidenav').sidenav(); });
+    $('.sidenav').sidenav({
+        draggable: true }); });
