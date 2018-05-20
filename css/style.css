@@ -1,8 +1,5 @@
 body, html
-{
-	background-color: #EDEDED !important;
-}
-
+{ background-color: #EDEDED !important; }
 .intro
 {
 	text-align: center;
@@ -10,13 +7,11 @@ body, html
 	padding-bottom: 5%;
 	margin-bottom: 3.125em;
 }
-
 .intro h1
 {
 	font-weight: 500;
 	text-transform: uppercase;
 }
-
 .intro h5
 {
 	text-transform: uppercase;
@@ -26,82 +21,62 @@ body, html
 	display: inline-block;
 	font-size: 1.2em;
 }
-
-
 .about .col
-{
-	margin-bottom: 1.5em;
-}
-
+{ margin-bottom: 1.5em; }
 .about h5
 {
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 0.9375em;
 }
-
 .about h6
 {
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 2.8125em;
 }
-
 .about .card
-{
-	text-align: center;
-}
-
+{ text-align: center; }
 .about .card img
-{
-	margin-bottom: 0.9375em;
-}
-
+{ margin-bottom: 0.9375em; }
 .portfolio .col
-{
-	margin: auto;
-}
-
+{	margin: auto; }
 .portfolio h5
 {
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 0.9375em;
 }
-
 .portfolio h6
 {
 	text-align: center;
 	text-transform: uppercase;
 	margin: auto;
 }
-
 .portfolio .portfolio-holder
 {
 	clear: both;
 	text-align: center;
 }
-
 .portfolio img
 {
 	width: 100%;
 	height: 100%;
 	display: inline-block;
 }
-
-.info{
+.info
+{
 		text-align: center;
 		width: 52%;
 		height: 5%;
 		padding-top: 2%;
 		display: block;
 }
-
-.info h5{
+.info h5
+{
 		text-transform: uppercase;
 		margin-bottom: 0.9375em;
 }
-
 footer
 {
 	padding-top: 0.6875em;
