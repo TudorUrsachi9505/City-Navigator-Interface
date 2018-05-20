@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>LaptopLocationTest</title>
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<!-- Implement the responsive layout -->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- Import Google Icon Font -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- Compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script src="js/index.js"></script>
+<!-- Sidebar navigation page  -->
+<ul id="slide-out" class="sidenav">
+<li><div class="user-view">
+<div class="background">
+<img src="img/location.jpg" alt="background" width="300" height="165">
+</div>
+<!-- Account details  -->
+<a href="#user"><i class="medium material-icons white">account_circle</i></a>
+<a href="#name"><span class="white-text name">Andrei Ilascu</span></a>
+<a href="#email"><span class="white-text email">andrei.ilascu@gmail.com</span></a>
+</div></li>
+<!-- Account Login and SignUp  -->
+<li><a class="subheader">Account</a></li>
+<li><a class="waves-effect modal-trigger" data-target="modal1"><i class="material-icons">portrait</i>Account details</a>
+  <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Account information</h4>
+        <p>Display account information</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Done</a>
+      </div>
+    </div>
+</li>
+<li><a class="waves-effect" href="index.html"><i class="material-icons">exit_to_app</i>Logout</a></li>
+<li><div class="divider"></div></li>
+<!-- Help and feedback section  -->
+<li><a class="subheader">Help</a></li>
+<li><a class="waves-effect" href="#!"><i class="material-icons">help</i>Help</a></li>
+<li><a class="waves-effect" href="#!"><i class="material-icons">feedback</i>Feedback</a></li>
+</ul>
+<!-- Intro banner with application name and motto -->
+<div class="intro teal accent-4 lighten-2 z-depth-2">
+<span><a href="#" data-target="slide-out" class="btn-floating pulse sidenav-trigger z-depth-2"><i class="material-icons">menu</i></a></span>
+<h1 class="grey-text text-lighten-5">Laptop Location Test</h1>
+<h5 clas="grey lighten-4 grey-text text-darken-1">Reach your destination in seconds</h5>
+</div>
+<!-- Short description about the app, it's story and the initial map -->
+<div class="section">
+<div class="container about">
+<h5>welcome user</h5>
+<h6>This is your exact location</h6>
+<div class="row">
+<!-- Miniature map image  -->
+<div class="col s12 m6 l4">
+<div class="card blue-grey darken-1">
+<div class="card-content white-text z-depth-2">
+<img class="materialboxed" src="img/map1.jpg" alt="map1" width="1800" height="1134">
+</div>
+</div>
+</div>
+<!-- Three main features that this app offers -->
+<div class="col s12 m6 l4 info">
+<h6>We selected a few places you can try out</h6>
+<ul class="collapsible popout z-depth-2">
+<li>
+<div class="collapsible-header"><i class="material-icons">local_post_office</i>Post Office</div>
+<div class="collapsible-body"><span>Coming soon...</span></div>
+</li>
+<li>
+<div class="collapsible-header"><i class="material-icons">fitness_center</i>Fitness Center</div>
+<div class="collapsible-body"><span>Coming soon...</span></div>
+</li>
+<li>
+<div class="collapsible-header"><i class="material-icons">local_grocery_store</i>Grocery Store</div>
+<div class="collapsible-body"><span>Coming soon...</span></div>
+</li>
+<li>
+<div class="collapsible-header"><i class="material-icons">local_hotel</i>Hotel</div>
+<div class="collapsible-body"><span>Coming soon...</span></div>
+</li>
+<li>
+<div class="collapsible-header"><i class="material-icons">local_library</i>Library</div>
+<div class="collapsible-body"><span>Coming soon...</span></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- Image carousel with nearby locations -->
+<div class="section">
+<div class="container portfolio">
+<h5>nearby locations</h5>
+<div class="transparent">
+<div class="carousel carousel-slider center" data-indicators="true">
+<div class="carousel-item">
+<div class="container">
+<img class="materialboxed" src="img/rest1.jpg" alt="rest1" width="1800" height="1134" href="#one!">
+</div>
+</div>
+<div class="carousel-item">
+<div class="container">
+<img class="materialboxed" src="img/rest2.jpg" alt="rest2" width="1800" height="1134" href="#two!">
+</div>
+</div>
+<div class="carousel-item">
+<div class="container">
+<img class="materialboxed" src="img/rest3.jpg" alt="rest3" width="1800" height="1134" href="#three!">
+</div>
+</div>
+<div class="carousel-item">
+<div class="container">
+<img class="materialboxed" src="img/rest4.jpg" alt="rest4" width="1800" height="1134" href="#four!">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Developer footer with basic information -->
+<footer class="footer teal accent-4 lighten-2">
+<div class="footer-copyright">
+<div class="container">
+<p> Developed by &copy; Andrei-Bogdan Ilascu </p>
+</div>
+</div>
+</footer>
+</body>
+</html>
