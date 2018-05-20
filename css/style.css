@@ -1,5 +1,9 @@
 body, html
 { background-color: #EDEDED !important; }
+.modal{
+	text-align: center;
+	width: 100%;
+}
 .intro
 {
 	text-align: center;
@@ -21,6 +25,14 @@ body, html
 	display: inline-block;
 	font-size: 1.2em;
 }
+.intro .sidenav-trigger
+{
+	float: left;
+	color: white;
+	margin-top: -0.625em;
+	background-color: #1de9b6;
+	margin-left: 0.625em;
+}
 .about .col
 { margin-bottom: 1.5em; }
 .about .info
@@ -40,9 +52,10 @@ body, html
 .about .card
 { text-align: center; }
 .about .card img
-{ margin-bottom: 0.9375em; width: 100%; height: 100%; }
+{ width: 100%; height: 100%; }
+.about .info{ width: 100%; }
 .portfolio .col
-{	margin: auto; }
+{ margin: auto; }
 .portfolio h5
 {
 	text-align: center;
@@ -67,28 +80,14 @@ body, html
 	margin-bottom: 0.9375em;
 	display: inline-block;
 }
-.info
-{
-		text-align: center;
-		width: 52%;
-		height: 5%;
-		padding-top: 2%;
-		display: block;
-}
-.info h5
-{
-		text-transform: uppercase;
-		margin-bottom: 0.9375em;
-}
 footer
 {
+	display: flex;
+  	flex-direction: column;
+	margin-top: 1em;
 	text-align: center;
-	background: #00bfa5;
-	position: absolute;
 	width: 100%;
-	height: 6%;
-	margin-top: 5%;
 	font-size: 1.125em;
-	font-weight: 500;
+	font-weight: 400;
 	color: white;
 }
