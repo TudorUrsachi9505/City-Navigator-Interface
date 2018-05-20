@@ -55,7 +55,7 @@ body, html
 { width: 100%; height: 100%; }
 .about .info{ width: 100%; }
 .portfolio .col
-{ margin: auto; }
+{	margin: auto; }
 .portfolio h5
 {
 	text-align: center;
@@ -83,7 +83,7 @@ body, html
 footer
 {
 	display: flex;
-  	flex-direction: column;
+  flex-direction: column;
 	margin-top: 1em;
 	text-align: center;
 	width: 100%;
