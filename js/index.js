@@ -14,4 +14,8 @@ $(document).ready(function(){
 // Sidebar navigation page
 $(document).ready(function(){
     $('.sidenav').sidenav({
-        draggable: true }); });
+        draggable: true,
+        preventScrolling: true }); });
+// Account details modal
+$(document).ready(function(){
+    $('.modal').modal(); });
